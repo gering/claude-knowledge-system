@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-knowledge-system",
+  "owner": {
+    "name": "gering"
+  },
+  "metadata": {
+    "description": "Lightweight, native knowledge management for Claude Code projects"
+  },
+  "plugins": [
+    {
+      "name": "knowledge-system",
+      "source": "./plugins/knowledge-system",
+      "description": "Three layers of persistent project knowledge: Rules (always active), Knowledge (on demand), and Memory (automatic).",
+      "version": "1.0.0"
+    }
+  ]
+}

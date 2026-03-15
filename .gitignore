@@ -1,0 +1,9 @@
+# Claude Code local settings
+.claude/
+
+# Internal reference and planning files
+reference/
+task.md
+
+# ByteRover data
+.brv/
