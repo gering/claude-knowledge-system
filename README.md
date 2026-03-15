@@ -27,6 +27,15 @@ Or for local development/testing:
 claude --plugin-dir /path/to/claude-knowledge-system/plugins/knowledge-system
 ```
 
+### Updating
+
+```bash
+/plugin marketplace update claude-knowledge-system
+/reload-plugins
+```
+
+Auto-updates are disabled by default for third-party marketplaces. You can enable them in `/plugin` → Marketplaces → Enable auto-update.
+
 ## Quick Start
 
 ### 1. Initialize your project
