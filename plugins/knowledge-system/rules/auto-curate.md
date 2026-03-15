@@ -15,4 +15,6 @@ After completing work that changes established patterns or reveals new best prac
 
 4. **Bug fix reveals a pattern** → If the root cause or fix is something future-you should know, curate it. If it's trivial, skip it.
 
+5. **Knowledge drift** → When you notice that a knowledge file contains outdated details (wrong counts, renamed files, changed behavior), update it immediately. Knowledge files have no automatic sync — they drift unless actively maintained.
+
 Don't curate trivial changes. Only curate when future-you would benefit from knowing this.
