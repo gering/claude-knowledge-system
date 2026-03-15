@@ -17,4 +17,10 @@ After completing work that changes established patterns or reveals new best prac
 
 5. **Knowledge drift** → When you notice that a knowledge file contains outdated details (wrong counts, renamed files, changed behavior), update it immediately. Knowledge files have no automatic sync — they drift unless actively maintained.
 
+## Content guidelines
+
+- **No volatile values**: Don't hardcode version numbers, counts, or thresholds — describe the pattern instead.
+- **No security-sensitive details**: Don't document API keys, secrets, or auth internals in plaintext.
+- **Prefer patterns over snapshots**: Describe *how things work*, not *current exact values*.
+
 Don't curate trivial changes. Only curate when future-you would benefit from knowing this.

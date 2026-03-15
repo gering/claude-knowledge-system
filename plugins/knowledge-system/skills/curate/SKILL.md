@@ -33,7 +33,12 @@ Store a new pattern, decision, or learning in the project knowledge system.
    - New topic → Create new file with proper structure
    - If new knowledge file → update `_index.md`
 
-6. Report what was stored and where
+6. **Content quality checks** before writing:
+   - **No volatile values**: Don't hardcode version numbers, counts, or thresholds that change with the code. Describe the pattern instead (e.g. "version is incremented on schema changes" not "version = 11").
+   - **No security-sensitive details**: Don't document API keys, secrets, or auth internals in plaintext. Describe the approach without exposing specifics.
+   - **Prefer patterns over snapshots**: Describe *how things work*, not *current exact values*. Values change — patterns persist.
+
+7. Report what was stored and where
 
 ## Why this runs in-context (not as agent)
 Curate needs the conversation context to know what just happened — which files changed, which patterns were applied, which learnings emerged. A subagent would start fresh and lose all of that.
