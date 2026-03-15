@@ -32,7 +32,6 @@ Store a new pattern, decision, or learning in the project knowledge system.
    - Existing file covers topic → Edit to add/update
    - New topic → Create new file with proper structure
    - If new knowledge file → update `_index.md`
-   - Set `_Last updated: YYYY-MM-DD_` at bottom of knowledge files
 
 6. Report what was stored and where
 

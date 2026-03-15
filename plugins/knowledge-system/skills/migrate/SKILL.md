@@ -53,8 +53,6 @@ globs: <relevant file patterns, if applicable>
 ---
 ```
 
-When creating knowledge files, add `_Last updated: YYYY-MM-DD_` at the bottom.
-
 ### 5. Ensure directory structure exists
 
 Create `.claude/knowledge/` and all necessary subdirectories. Run `/init` logic if the knowledge system hasn't been set up yet.
